@@ -1,0 +1,158 @@
+/* Page margin and paddding */
+
+*{
+    margin : 0;
+    padding:0;
+} 
+/* Background image */
+.back_img{
+    height:100vh;
+    background-image: url(image_02-2-600x400.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Header stars here */
+.container{
+    display: flex;
+    background-color: white;
+    
+}
+.container div{
+    background-color:white;
+}
+
+.nav ul li a:hover{
+    background-color: blue;
+}
+    
+.header{
+  display:flex;
+  justify-content: space-between;
+  height: 15vh;
+  width: 100%;
+}
+.logo{
+    display:flex;
+    margin-left: 100px;
+}
+.logo img{
+    margin-top: 20px;
+    width:50px;
+    height:50px;
+    
+}
+.logo h3{
+    margin-left: 15px;
+    margin-top: 30px;
+   
+}
+.nav ul{
+    display: flex;
+    justify-content:space-evenly ;
+    padding: 10px;
+    list-style: none;
+    margin-top: 24px;
+   
+}
+.nav ul a{
+    text-decoration: none;
+    padding: 15px;
+    color:black;
+
+}
+
+.nav ul:last-child{
+    margin-right: 100px;
+}
+/* Header ends here */
+
+
+
+/* section 1 starts here */
+
+.section1{
+    margin-top: 100px;
+    margin-left:160px;
+    color: white;
+}
+.section1 h1{
+    font-size: 3rem;
+}
+.section1 p{
+    font-size: 1.2rem;
+}
+
+/* section 1 ends here */
+
+
+
+/* section2 starts here */
+.section2{
+ display:flex;
+ margin-left: 290px;
+ margin-right: 210px;
+ margin-top: 150px;
+ color:white;
+}
+.emergency{
+    background-color:rgb(106, 179, 224);
+    height:150px;
+    width:230px;
+    padding:10px;
+
+}
+ .emergency p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+.doctor{
+    background-color:rgb(9, 138, 218);
+    width:230px;
+    padding:10px;
+}
+.doctor p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+.timetable{
+    background-color:blue;
+    width:230px;
+    padding:10px;
+}
+.timetable p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.un{
+    text-decoration: underline;
+    margin-bottom: 12px;
+    font-size: 1rem;
+}
+.emergency:hover{
+    background-color: black;
+}
+.doctor:hover{
+    background-color: black;
+}
+.timetable:hover{
+    background-color: black;
+}
+/* Section 2 ends here */
+
+
+/* Button section modifier */
+.button{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.button a{
+    text-decoration: none;
+}
+.button span{
+    color:white;
+    
+}
+/* Button section modifier end */
